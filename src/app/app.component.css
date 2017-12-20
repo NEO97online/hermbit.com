@@ -1,0 +1,63 @@
+.header {
+  background: url('/assets/bg.png') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  image-rendering: pixelated;
+  width: 100%;
+  height: calc(100vh);
+}
+
+.crab {
+  width: 128px;
+  image-rendering: pixelated;
+  margin: auto;
+  display: block;
+  margin-top: 64px;
+}
+
+.title {
+  font-family: 'Pixeled', sans-serif;
+  font-size: 28px;
+  width: 100%;
+  text-align: center;
+  color: #1a1a1a;
+  margin-bottom: 32px;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-family: sans-serif;
+  margin-left: 16px;
+}
+.links-in {
+  text-align: left;
+  line-height: 32px;
+}
+
+i {
+  width: 32px;
+}
+
+a {
+  color: #ff6600;
+  text-shadow: 1px 1px 4px #000;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+a:hover {
+  cursor: pointer;
+  color: #ffb381;
+}
+
+.desc {
+  width: 100%;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 14px;
+  margin-bottom: 32px;
+}
